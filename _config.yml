@@ -19,9 +19,11 @@ description: > # this means to ignore newlines until "baseurl:"
   Engineering Inclusive Facilities, Events and Projects
   for Individuals of ALL Abilities in Summit County
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: inclusioneers
+url: "http://inclusioneers.org" # the base hostname & protocol for your site, e.g. http://example.com
+facebook_username: Inclusioneers
+#twitter_username: inclusioneers
 github_username:  inclusioneers
+paypal_button_id: 3RMQ8B7JREHNY
 
 # Build settings
 markdown: kramdown
@@ -31,3 +33,5 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - bin/
+  - vendor/
